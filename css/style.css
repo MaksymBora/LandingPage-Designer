@@ -1,9 +1,97 @@
 body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --primary-text-color: #070707;
+  --secondary-text-color: #828282;
+  --white-color: #ffffff;
+  --section-bg-color: #f6f6f6;
+}
+
+/* ============== HEADER SECTION ===================== */
+
+.nav-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-link.active-page {
+  color: var(--primary-text-color);
+}
+
+.nav-link:hover {
+  color: var(--primary-text-color);
+}
+
+/* =========== HERO SECTION ================ */
+
+.hero-title {
+  font-size: 47.3392px;
+  line-height: 1.25;
+}
+
+/* ================= SKILLS SECTION========================= */
+
+.skills-title {
+  font-size: 34px;
+  line-height: 1.23;
+}
+
+.skills-name {
+  font-size: 14px;
+  line-height: 1.21px;
+  color: var(--secondary-text-color);
+}
+
+/* ====================== PORTFOLIO SECTION ======================== */
+
+.portfolio-title {
+  font-size: 34px;
+  line-height: 1.23;
+}
+
+.portfolio-link {
   font-size: 18px;
   line-height: 1.22;
   color: var(--primary-text-color);
 }
 
-:root {
-  --primary-text-color: #070707;
+/* ======================== FOOTER ================================ */
+
+.contacts-title {
+  font-size: 34px;
+  line-height: 1.23;
+}
+
+.btn {
+  font-size: 18px;
+  line-height: 1.22;
+  columns: var(--white-color);
+  cursor: pointer;
 }
