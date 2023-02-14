@@ -16,10 +16,15 @@ ul {
 h1,
 h2,
 h3,
-h4,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 img {
@@ -56,6 +61,13 @@ img {
   line-height: 1.25;
 }
 
+/* ================= ABOUT SECTION========================= */
+
+.about-title {
+  font-size: 34px;
+  line-height: 1.23;
+}
+
 /* ================= SKILLS SECTION========================= */
 
 .skills-title {
@@ -79,6 +91,7 @@ img {
 .portfolio-link {
   font-size: 18px;
   line-height: 1.22;
+  font-weight: 500;
   color: var(--primary-text-color);
 }
 
@@ -94,4 +107,10 @@ img {
   line-height: 1.22;
   columns: var(--white-color);
   cursor: pointer;
+}
+
+.contacts-sub {
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--secondary-text-color);
 }
