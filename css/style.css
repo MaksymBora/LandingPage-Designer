@@ -38,9 +38,38 @@ img {
   --section-bg-color: #f6f6f6;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+}
+
+.test {
+  outline: 1px solid black;
+}
+
 /* ============== HEADER SECTION ===================== */
 
+.main-nav {
+  border-bottom: 1px solid var(--secondary-text-color);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.nav-list {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 155px;
+}
+
 .nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--secondary-text-color);
   font-weight: 500;
   text-decoration: none;
@@ -56,16 +85,72 @@ img {
 
 /* =========== HERO SECTION ================ */
 
+.hero {
+  padding-top: 40px;
+  padding-bottom: 104px;
+}
+
+.hero > .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+/* .container > .hero-content {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+} */
+
 .hero-title {
-  font-size: 47.3392px;
+  font-size: 47px;
   line-height: 1.25;
+}
+
+.hero-text {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-img {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ================= ABOUT SECTION========================= */
 
+.about {
+  padding-top: 120px;
+  padding-bottom: 107px;
+  background-color: var(--section-bg-color);
+}
+
+.about > .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-title {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 18px;
   font-size: 34px;
   line-height: 1.23;
+}
+
+.about-content {
+  width: 485px;
+  text-align: center;
+}
+
+.about-info:first-child {
+  margin-bottom: 50px;
+}
+
+.about-info:nth-child(2) {
+  margin-bottom: 55px;
 }
 
 /* ================= SKILLS SECTION========================= */
