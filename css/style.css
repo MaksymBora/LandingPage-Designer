@@ -155,12 +155,51 @@ img {
 
 /* ================= SKILLS SECTION========================= */
 
+.skills {
+  padding-top: 91px;
+  padding-bottom: 104px;
+}
+
+.skills > .container {
+  display: block;
+  text-align: center;
+}
+
+.skills-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .skills-title {
+  margin-bottom: 69px;
   font-size: 34px;
   line-height: 1.23;
 }
 
+.skills-info {
+  margin-bottom: 84px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
+
+.skills-item {
+  flex-basis: calc((100% - 270) / 4);
+}
+
+.skills-item img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .skills-name {
+  margin-top: 24px;
+  margin-bottom: 40px;
+
   font-size: 14px;
   line-height: 1.21px;
   color: var(--secondary-text-color);
@@ -168,7 +207,32 @@ img {
 
 /* ====================== PORTFOLIO SECTION ======================== */
 
+.portfolio {
+  padding-top: 112px;
+  padding-bottom: 166px;
+  background-color: var(--section-bg-color);
+}
+
+.portfolio > .container {
+  flex-wrap: wrap;
+}
+
+.portfolio-list {
+  text-align: center;
+}
+
+.portfolio-item:not(:first-child) {
+  margin-top: 95px;
+}
+
+.portfolio-img {
+  margin-bottom: 47px;
+}
+
 .portfolio-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 47px;
   font-size: 34px;
   line-height: 1.23;
 }
