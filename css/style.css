@@ -245,17 +245,40 @@ img {
 }
 
 /* ======================== FOOTER ================================ */
+.main-footer {
+  padding-top: 114px;
+  padding-bottom: 124px;
+}
+
+.main-footer > .container {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
 .contacts-title {
+  margin-bottom: 20px;
   font-size: 34px;
   line-height: 1.23;
 }
 
+.footer-text {
+  margin-bottom: 29px;
+}
+
 .btn {
+  padding: 13px 30px;
+
+  margin-bottom: 170px;
   font-size: 18px;
   line-height: 1.22;
   columns: var(--white-color);
   cursor: pointer;
+  background-color: var(--primary-text-color);
+  color: var(--white-color);
+
+  border-radius: 40px;
+  border: none;
 }
 
 .contacts-sub {
